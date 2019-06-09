@@ -1,6 +1,6 @@
 <template>
 <div id="footer">
-    © 2019 Ascension E-Sports
+    © 2019 Ascension Esports
 </div>
 </template>
 
@@ -18,6 +18,13 @@
     flex-direction: column;
     justify-content: center;
     border-top: 4px solid #faa61a;
+    font-size: 0.9vw;
+}
+
+@media (max-width: 1024px) {
+    #footer {
+        font-size: 9.216px;
+    }
 }
 </style>
 

@@ -7,10 +7,16 @@
 </template>
 
 <style>
+@font-face {
+  font-family: "Akkurat";
+  src: url("../src/assets/font/Akkurat.ttf");
+}
+
 #root {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: "Akkurat";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    min-width: 1024px;
 }
 </style>
 

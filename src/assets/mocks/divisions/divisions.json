@@ -1,0 +1,44 @@
+{
+    "divisions": [
+        {
+            "id": 1,
+            "name": "Dota 2"
+        },
+        {
+            "id": 2,
+            "name": "CS: GO"
+        },
+        {
+            "id": 3,
+            "name": "Call of Duty"
+        },
+        {
+            "id": 4,
+            "name": "PUBG"
+        },
+        {
+            "id": 5,
+            "name": "League of Legends"
+        },
+        {
+            "id": 6,
+            "name": "APEX Legends"
+        },
+        {
+            "id": 7,
+            "name": "StarCraft II"
+        },
+        {
+            "id": 8,
+            "name": "Rocket League"
+        },
+        {
+            "id": 9,
+            "name": "Fortnite"
+        },
+        {
+            "id": 10,
+            "name": "FIFA"
+        }
+    ]
+}
