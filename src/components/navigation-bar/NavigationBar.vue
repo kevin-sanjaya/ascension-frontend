@@ -1,13 +1,11 @@
 <template>
 <div id="nav">
-    <nav class="navbar navbar-expand-lg">
-        <div class="collapse navbar-collapse">
-            <div class="navbar-nav">
-                <router-link to="/">Home</router-link>
-                <router-link to="/schedules">Schedules</router-link>
-                <router-link to="/results">Results</router-link>
-                <router-link to="/divisions">Divisions</router-link>
-            </div>
+    <nav>
+        <div class="navbar-nav">
+            <router-link to="/">Home</router-link>
+            <router-link to="/schedules">Schedules</router-link>
+            <router-link to="/results">Results</router-link>
+            <router-link to="/divisions">Divisions</router-link>
         </div>
     </nav>
 </div>
@@ -22,13 +20,25 @@
 #nav a {
     font-weight: bold;
     color: #f4f5f6;
-    margin: 5%;
+    margin: 1%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 #nav a.router-link-exact-active {
     border-bottom: 2px solid #faa61a;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+}
+
+@media (max-width: 1024px) {
+    #nav a {
+        font-size: 10.24px;
+    }
 }
 </style>
 
