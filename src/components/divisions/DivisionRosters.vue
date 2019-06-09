@@ -47,7 +47,7 @@ i {
 }
 
 .loading-spinner {
-    margin: 20% 0 0 35%;
+    margin: 20% 0 0 40%;
 }
 
 @media (max-width: 1024px) {
