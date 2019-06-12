@@ -1,6 +1,6 @@
 <template>
 <div id="schedules">
-    <DivisionSelector v-bind:divisionList="divisionList" @selectDivision="selectDivision" />
+    <DivisionSelector @selectDivision="selectDivision" />
     <ScrimSchedules  v-bind:selectedDivision="selectedDivision"
                      v-bind:scrimmageSchedules="scrimmageSchedules" />
     <TournamentSchedules  v-bind:selectedDivision="selectedDivision"
@@ -21,7 +21,6 @@
 import DivisionSelector from '@/components/divisions/DivisionSelector.vue';
 import ScrimSchedules from '@/components/schedules/ScrimSchedules.vue';
 import TournamentSchedules from '@/components/schedules/TournamentSchedules.vue';
-import * as mockDivisions from '../assets/mocks/divisions/divisions.json';
 import * as mockScrimmages from '../assets/mocks/schedules/scrimmages.json';
 import * as mockTournaments from '../assets/mocks/schedules/tournaments.json';
 
@@ -34,8 +33,7 @@ export default {
   },
   data() {
     return {
-      selectedDivision: 'Dota 2',
-      divisionList: [],
+      selectedDivision: {},
       scrimmageSchedules: [],
       tournamentSchedules: [],
     };
@@ -43,9 +41,6 @@ export default {
   methods: {
     selectDivision(selectedDivision) {
       this.selectedDivision = selectedDivision;
-    },
-    setDivisionList(divisionList) {
-      this.divisionList = divisionList;
     },
     setScrimmageSchedules(scrimmageSchedules) {
       this.scrimmageSchedules = scrimmageSchedules;
@@ -55,7 +50,6 @@ export default {
     },
   },
   mounted() {
-    setTimeout(() => this.setDivisionList(mockDivisions.default.divisions), 2000);
     setTimeout(() => this.setScrimmageSchedules(mockScrimmages.default.scrimmages), 2000);
     setTimeout(() => this.setTournamentSchedules(mockTournaments.default.tournaments), 2000);
   },

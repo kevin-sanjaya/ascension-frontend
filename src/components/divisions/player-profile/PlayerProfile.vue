@@ -79,7 +79,10 @@ h3.extra-info {
 export default {
   name: 'PlayerProfile',
   props: {
-    roster: Object,
+    roster: {
+      type: Object,
+      default: null,
+    },
   },
   data() {
     return {};

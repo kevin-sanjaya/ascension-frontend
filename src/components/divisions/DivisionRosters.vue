@@ -1,17 +1,18 @@
 <template>
 <div id="division-rosters">
-    <template v-if="divisionRosterList">
-        <h3>{{ selectedDivision }}
+    <template v-if="divisionRosterList.length">
+        <h3>{{ selectedDivision.name }}
             <span>Roster</span>
         </h3>
         <div class="rosters-data">
             <PlayerProfile
                 v-for="roster in divisionRosterList"
+                v-if="roster.teamId === selectedDivision.id"
                 v-bind:key="roster.id"
                 v-bind:roster="roster" />
         </div>
     </template>
-     <template v-if="!divisionRosterList">
+     <template v-if="!divisionRosterList.length">
         <div class="loading-spinner">
             <i class="fas fa-spinner fa-spin"></i>
         </div>
@@ -66,10 +67,13 @@ export default {
     PlayerProfile,
   },
   props: {
-    selectedDivision: String,
-    divisionRosterList: {
+    selectedDivision: {
+      type: Object,
       default: null,
+    },
+    divisionRosterList: {
       type: Array,
+      default: null,
     },
   },
   data() {

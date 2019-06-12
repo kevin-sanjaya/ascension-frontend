@@ -19,6 +19,26 @@
             "server": "Europe",
             "info": null,
             "teamId": 1
+        },
+        {
+            "id": "27947",
+            "time": "2019-01-26T07:00:00.000-02:00",
+            "opponent": "Lunatic Gaming",
+            "format": "Best of 1",
+            "online": true,
+            "server": "US",
+            "info": null,
+            "teamId": 2
+        },
+        {
+            "id": "99967",
+            "time": "2019-01-26T10:00:00.000-02:00",
+            "opponent": "Wave Esports",
+            "format": "Best of 1",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 2
         }
     ]
 }

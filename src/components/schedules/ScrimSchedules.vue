@@ -2,7 +2,7 @@
 <div id="scrim-schedules">
     <div class="schedule-tile" v-if="scrimmageSchedules.length">
         <h3>Upcoming
-            <span>{{ selectedDivision }}</span> Scrimmage
+            <span>{{ selectedDivision.name }}</span> Scrimmage
         </h3>
         <table class="table">
             <thead>
@@ -15,7 +15,8 @@
                 </tr>
             </thead>
             <tbody>
-                <template v-for="(scrimmage, index) in scrimmageSchedules">
+                <template v-for="(scrimmage, index) in scrimmageSchedules"
+                    v-if="scrimmage.teamId === selectedDivision.id">
                     <tr v-bind:key="scrimmage.id">
                         <th scope="row">{{ index + 1 }}</th>
                         <td>{{ formatTime(scrimmage.time) }}</td>
@@ -115,7 +116,10 @@ export default {
       default: null,
       type: Array,
     },
-    selectedDivision: String,
+    selectedDivision: {
+      default: null,
+      type: Object,
+    },
   },
   data() {
     return {};

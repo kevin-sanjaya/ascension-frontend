@@ -2,7 +2,7 @@
 <div id="tournament-schedules">
     <div class="schedule-tile" v-if="tournamentSchedules.length">
         <h3>Upcoming
-            <span>{{ selectedDivision }}</span> Tournament
+            <span>{{ selectedDivision.name }}</span> Tournament
         </h3>
         <table class="table">
             <thead>
@@ -16,7 +16,8 @@
                 </tr>
             </thead>
             <tbody>
-                <template v-for="(tournament, index) in tournamentSchedules">
+                <template v-for="(tournament, index) in tournamentSchedules"
+                    v-if="tournament.teamId === selectedDivision.id">
                     <tr v-bind:key="tournament.id">
                         <th scope="row">{{ index + 1 }}</th>
                         <td>{{ formatTime(tournament.time) }}</td>
@@ -140,7 +141,10 @@ export default {
       type: Array,
       default: null,
     },
-    selectedDivision: String,
+    selectedDivision: {
+      default: null,
+      type: Object,
+    },
   },
   data() {
     return {};
