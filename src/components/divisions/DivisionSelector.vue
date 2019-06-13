@@ -1,17 +1,16 @@
 <template>
 <div id="division-selector">
-  <template v-if="divisionList">
-    <div class="selector btn-group-vertical">
+  <div class="selector btn-group-vertical">
     <button class="btn"
             v-for="division in divisionList"
             v-on:click="selectDivision"
             v-bind:key="division.id"
+            v-bind:id="division.id"
             v-bind:value="division.name"
-            v-bind:class="{ 'active': division.name === selectedDivision }">
+            v-bind:class="{ 'active': division.id === selectedDivision.id }">
             {{ division.name }}
     </button>
-    </div>
-  </template>
+  </div>
 </div>
 </template>
 
@@ -46,25 +45,32 @@ button.active {
 </style>
 
 <script>
+import * as mockDivisions from '../../assets/mocks/divisions/divisions.json';
+
 export default {
   name: 'DivisionSelector',
-  props: {
-    divisionList: {
-      default: null,
-      type: Array,
-    },
-  },
   data() {
     return {
-      selectedDivision: 'Dota 2',
+      divisionList: [],
+      selectedDivision: {},
     };
   },
   methods: {
     selectDivision(event) {
-      this.selectedDivision = event.target.value;
-      this.$emit('selectDivision', event.target.value);
+      this.selectedDivision = {
+        id: Number(event.target.id),
+        name: event.target.value,
+      };
+      this.$emit('selectDivision', this.selectedDivision);
+    },
+    setDivisionList(divisionList) {
+      this.divisionList = divisionList;
+      [this.selectedDivision] = divisionList;
+      this.$emit('selectDivision', this.selectedDivision);
     },
   },
-  mounted() {},
+  mounted() {
+    setTimeout(() => this.setDivisionList(mockDivisions.default.divisions), 2000);
+  },
 };
 </script>

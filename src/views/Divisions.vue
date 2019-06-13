@@ -1,9 +1,9 @@
 <template>
 <div id="divisions">
-    <DivisionSelector v-bind:divisionList="divisionList" @selectDivision="selectDivision" />
+    <DivisionSelector @selectDivision="selectDivision" />
     <DivisionRosters
       v-bind:selectedDivision="selectedDivision"
-      v-bind:divisionRosterList="divisionRosterList[selectedDivision]" />
+      v-bind:divisionRosterList="divisionRosterList" />
 </div>
 </template>
 
@@ -20,7 +20,6 @@
 import DivisionSelector from '@/components/divisions/DivisionSelector.vue';
 import DivisionRosters from '@/components/divisions/DivisionRosters.vue';
 import * as mockRosters from '../assets/mocks/rosters/rosters.json';
-import * as mockDivisions from '../assets/mocks/divisions/divisions.json';
 /* import END_POINT from '@/app.config'; */
 
 export default {
@@ -31,9 +30,8 @@ export default {
   },
   data() {
     return {
-      selectedDivision: 'Dota 2',
+      selectedDivision: {},
       divisionRosterList: [],
-      divisionList: [],
     };
   },
   methods: {
@@ -45,22 +43,14 @@ export default {
         .then(response => this.setRosterList(response.data))
         .catch(error => console.log(error)); */
     },
-    getDivisionList() {
-      /* axios.get(`${END_POINT}/divisions`)
-        .then(response => this.setDivisionList(response.data))
-        .catch(error => console.log(error)); */
-    },
     setRosterList(divisionRosterList) {
       this.divisionRosterList = divisionRosterList;
     },
-    setDivisionList(divisionList) {
-      this.divisionList = divisionList;
-    },
   },
   mounted() {
+    /* this.getRosterList(); */
     /* mock service */
     setTimeout(() => this.setRosterList(mockRosters.default.rosters), 2000);
-    setTimeout(() => this.setDivisionList(mockDivisions.default.divisions), 2000);
   },
 };
 </script>
