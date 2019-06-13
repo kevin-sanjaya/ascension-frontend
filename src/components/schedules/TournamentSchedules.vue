@@ -16,8 +16,12 @@
                 </tr>
             </thead>
             <tbody>
-                <template v-for="(tournament, index) in tournamentSchedules"
-                    v-if="tournament.teamId === selectedDivision.id">
+            <tr>
+                <td colspan="5" v-if="filteredSchedules.length === 0">
+                    There are no schedules available.
+                </td>
+            </tr>
+                <template v-for="(tournament, index) in filteredSchedules">
                     <tr v-bind:key="tournament.id">
                         <th scope="row">{{ index + 1 }}</th>
                         <td>{{ formatTime(tournament.time) }}</td>
@@ -139,15 +143,20 @@ export default {
   props: {
     tournamentSchedules: {
       type: Array,
-      default: null,
+      default: () => null,
     },
     selectedDivision: {
-      default: null,
       type: Object,
+      default: () => null,
     },
   },
   data() {
     return {};
+  },
+  computed: {
+    filteredSchedules() {
+      return this.tournamentSchedules.filter(data => data.teamId === this.selectedDivision.id);
+    },
   },
   methods: {
     formatTime(time) {

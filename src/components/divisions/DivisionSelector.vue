@@ -1,7 +1,6 @@
 <template>
 <div id="division-selector">
-  <template v-if="divisionList">
-    <div class="selector btn-group-vertical">
+  <div class="selector btn-group-vertical">
     <button class="btn"
             v-for="division in divisionList"
             v-on:click="selectDivision"
@@ -11,8 +10,7 @@
             v-bind:class="{ 'active': division.id === selectedDivision.id }">
             {{ division.name }}
     </button>
-    </div>
-  </template>
+  </div>
 </div>
 </template>
 
@@ -67,7 +65,7 @@ export default {
     },
     setDivisionList(divisionList) {
       this.divisionList = divisionList;
-      this.selectedDivision = divisionList[0];
+      [this.selectedDivision] = divisionList;
       this.$emit('selectDivision', this.selectedDivision);
     },
   },

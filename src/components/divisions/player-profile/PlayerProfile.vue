@@ -81,7 +81,7 @@ export default {
   props: {
     roster: {
       type: Object,
-      default: null,
+      default: () => null,
     },
   },
   data() {

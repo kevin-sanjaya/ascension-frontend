@@ -364,17 +364,6 @@
             "teamId": 8
         },
         {
-            "id": "3NDSJ",
-            "name": "Klaus Schröder",
-            "nickname": "Ax|Schug",
-            "age": 20,
-            "country": "Sweden",
-            "position": null,
-            "avatarUrl": null,
-            "captain": false,
-            "teamId": 8
-        },
-        {
             "id": "3ODG7",
             "name": "Finn Stein",
             "nickname": "Collosus",
@@ -419,22 +408,11 @@
             "teamId": 9
         },
         {
-            "id": "2YAXH",
-            "name": "Bernd Schneider",
-            "nickname": "F1re",
-            "age": 23,
+            "id": "Q5OD5",
+            "name": "Timm Backer",
+            "nickname": "Tims",
+            "age": 25,
             "country": "Germany",
-            "position": null,
-            "avatarUrl": null,
-            "captain": false,
-            "teamId": 9
-        },
-        {
-            "id": "H57ZT",
-            "name": "Mark van der Meer",
-            "nickname": "Score",
-            "age": 20,
-            "country": "Netherlands",
             "position": null,
             "avatarUrl": null,
             "captain": false,

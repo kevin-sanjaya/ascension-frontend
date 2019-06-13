@@ -6,8 +6,7 @@
         </h3>
         <div class="rosters-data">
             <PlayerProfile
-                v-for="roster in divisionRosterList"
-                v-if="roster.teamId === selectedDivision.id"
+                v-for="roster in filteredRosters"
                 v-bind:key="roster.id"
                 v-bind:roster="roster" />
         </div>
@@ -69,16 +68,21 @@ export default {
   props: {
     selectedDivision: {
       type: Object,
-      default: null,
+      default: () => null,
     },
     divisionRosterList: {
       type: Array,
-      default: null,
+      default: () => null,
     },
   },
   data() {
     return {
     };
+  },
+  computed: {
+    filteredRosters() {
+      return this.divisionRosterList.filter(data => data.teamId === this.selectedDivision.id);
+    },
   },
   methods: {
   },

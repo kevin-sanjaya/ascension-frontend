@@ -48,6 +48,7 @@ export default {
     },
   },
   mounted() {
+    /* this.getRosterList(); */
     /* mock service */
     setTimeout(() => this.setRosterList(mockRosters.default.rosters), 2000);
   },

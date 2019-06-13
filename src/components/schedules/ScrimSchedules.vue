@@ -15,8 +15,12 @@
                 </tr>
             </thead>
             <tbody>
-                <template v-for="(scrimmage, index) in scrimmageSchedules"
-                    v-if="scrimmage.teamId === selectedDivision.id">
+            <tr>
+                <td colspan="5" v-if="filteredSchedules.length === 0">
+                    There are no schedules available.
+                </td>
+            </tr>
+                <template v-for="(scrimmage, index) in filteredSchedules">
                     <tr v-bind:key="scrimmage.id">
                         <th scope="row">{{ index + 1 }}</th>
                         <td>{{ formatTime(scrimmage.time) }}</td>
@@ -113,16 +117,21 @@ export default {
   components: {},
   props: {
     scrimmageSchedules: {
-      default: null,
       type: Array,
+      default: () => null,
     },
     selectedDivision: {
-      default: null,
       type: Object,
+      default: () => null,
     },
   },
   data() {
     return {};
+  },
+  computed: {
+    filteredSchedules() {
+      return this.scrimmageSchedules.filter(data => data.teamId === this.selectedDivision.id);
+    },
   },
   methods: {
     formatTime(time) {
