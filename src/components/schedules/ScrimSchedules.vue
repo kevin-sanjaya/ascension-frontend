@@ -108,6 +108,9 @@ td {
     h3 {
         font-size: 15.36px;
     }
+    table {
+        font-size: 8.192px;
+    }
 }
 </style>
 
