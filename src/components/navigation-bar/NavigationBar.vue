@@ -1,13 +1,22 @@
 <template>
 <div id="nav">
     <nav>
-        <div class="navbar-nav">
-            <router-link to="/">Home</router-link>
-            <router-link to="/schedules">Schedules</router-link>
-            <router-link to="/results">Results</router-link>
-            <router-link to="/divisions">Divisions</router-link>
-        </div>
+        <ul class="animation navbar-nav">
+            <li class="nav-item">
+                <router-link class="nav-link" to="/">Home</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/schedules">Schedules</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/results">Results</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="nav-link" to="/divisions">Divisions</router-link>
+            </li>
+        </ul>
     </nav>
+
 </div>
 </template>
 
@@ -17,22 +26,49 @@
     border-bottom: 4px solid #faa61a;
 }
 
-#nav a {
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 1em 1em;
+}
+
+.nav-item a {
     font-weight: bold;
     color: #f4f5f6;
-    margin: 1%;
     text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
     font-size: 1vw;
+    z-index: 0;
 }
 
 #nav a.router-link-exact-active {
     border-bottom: 2px solid #faa61a;
 }
 
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    margin-left: 1%;
+.animation a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #faa61a;
+    content: "";
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.animation a:after {
+    bottom: -2px;
+    transform: translateY(-10px);
+}
+
+.animation a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 @media (max-width: 1024px) {

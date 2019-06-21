@@ -1,6 +1,6 @@
 <template>
 <div id="footer">
-    © 2019 Ascension Esports
+    © 2019 Ascension
 </div>
 </template>
 
