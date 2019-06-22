@@ -10,7 +10,6 @@
 
 <style scoped>
 #schedules {
-  margin: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

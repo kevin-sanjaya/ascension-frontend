@@ -2,27 +2,33 @@
     "divisions": [
         {
             "id": 1,
-            "name": "Dota 2"
+            "name": "Dota 2",
+            "src": "https://t0.rbxcdn.com/f2c991f7641881faa95217a7e4bd3f1a"
         },
         {
             "id": 2,
-            "name": "CS: GO"
+            "name": "CS: GO",
+            "src": "https://www.pngkey.com/png/full/18-185642_csgo-discord-emoji-cs-go-logo-png.png"
         },
         {
             "id": 3,
-            "name": "Call of Duty"
+            "name": "Call of Duty",
+            "src": "http://www.sclance.com/pngs/call-of-duty-logo-png/call_of_duty_logo_png_204558.png"
         },
         {
             "id": 4,
-            "name": "PUBG"
+            "name": "PUBG",
+            "src": "https://pngimg.com/uploads/pubg/pubg_PNG33.png"
         },
         {
             "id": 5,
-            "name": "League of Legends"
+            "name": "League of Legends",
+            "src": "https://www.riotgames.com/darkroom/800/6e3cb0c1ef68c36917c0ebc60e134f69:27e118b555199ad4738eaa74561e3e79/blank-uml-page-2.png"
         },
         {
             "id": 6,
-            "name": "APEX Legends"
+            "name": "APEX Legends",
+            "src": "https://edge.alluremedia.com.au/m/k/2019/02/apex-legends-logo.jpg"
         },
         {
             "id": 7,

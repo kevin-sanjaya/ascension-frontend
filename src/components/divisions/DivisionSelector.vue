@@ -1,30 +1,47 @@
 <template>
 <div id="division-selector">
-  <div class="selector btn-group-vertical">
-    <button class="btn"
-            v-for="division in divisionList"
-            v-on:click="selectDivision"
-            v-bind:key="division.id"
-            v-bind:id="division.id"
-            v-bind:value="division.name"
-            v-bind:class="{ 'active': division.id === selectedDivision.id }">
-            {{ division.name }}
+    <button
+    class="animation"
+        v-for="division in divisionList"
+        v-on:click="selectDivision"
+        v-bind:key="division.id"
+        v-bind:id="division.id"
+        v-bind:value="division.name"
+        v-bind:class="{ 'active': division.id === selectedDivision.id }">
+        <img v-bind:src="division.src">
+        {{ division.name }}
     </button>
-  </div>
 </div>
 </template>
 
 <style scoped>
 #division-selector {
     width: 15%;
+    height: 90vh;
+    background-color: #11171a;
+}
+
+img {
+    width: 20%;
+    margin-right: 5%;
 }
 
 button {
+    width: 95%;
+    height: 8vh;
     padding: 5%;
-    font-size: 1.2vw;
-    color: #11171a;
-    font-weight: bold;
-    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1vw;
+    color: #f4f5f6;
+    text-align: left;
+    background-color: #11171a;
+    border: none;
+    outline: none;
+    border-left: 4px solid #11171a;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 button.active {
@@ -32,14 +49,17 @@ button.active {
     color: #faa61a;
 }
 
-.selector {
-    width: 100%;
-    background-color: white;
+button:hover {
+    margin-left: 5%;
+    border-left: 4px solid #faa61a;
+    color: #faa61a;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 @media (max-width: 1024px) {
     button {
-        font-size: 12.288px;
+        font-size: 10.24px;
     }
 }
 </style>
@@ -67,6 +87,10 @@ export default {
       this.divisionList = divisionList;
       [this.selectedDivision] = divisionList;
       this.$emit('selectDivision', this.selectedDivision);
+    },
+    getImage(id) {
+      console.log(`zxc/${id}.png`);
+      return `./zxc/${id}.png`;
     },
   },
   mounted() {

@@ -9,7 +9,6 @@
 
 <style scoped>
 #divisions {
-    margin: 1%;
     display: flex;
     flex-direction: row;
 }
