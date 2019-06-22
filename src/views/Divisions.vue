@@ -3,15 +3,31 @@
     <DivisionSelector @selectDivision="selectDivision" />
     <DivisionRosters
       v-bind:selectedDivision="selectedDivision"
-      v-bind:divisionRosterList="divisionRosterList" />
+      v-bind:divisionRosterList="divisionRosterList"
+      @finishedLoading="finishLoading" />
+      <template v-if="isLoading">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+    </template>
 </div>
 </template>
 
 <style scoped>
 #divisions {
-    margin: 1%;
     display: flex;
     flex-direction: row;
+}
+
+i {
+    font-size: 3vw;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #f4f5f6;
 }
 </style>
 
@@ -32,6 +48,7 @@ export default {
     return {
       selectedDivision: {},
       divisionRosterList: [],
+      isLoading: true,
     };
   },
   methods: {
@@ -45,6 +62,9 @@ export default {
     },
     setRosterList(divisionRosterList) {
       this.divisionRosterList = divisionRosterList;
+    },
+    finishLoading() {
+      this.isLoading = false;
     },
   },
   mounted() {
