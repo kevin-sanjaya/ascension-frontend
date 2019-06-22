@@ -5,15 +5,9 @@
             <span>Roster</span>
         </h3>
         <div class="rosters-data">
-            <PlayerProfile
-                v-for="roster in filteredRosters"
-                v-bind:key="roster.id"
-                v-bind:roster="roster" />
-        </div>
-    </template>
-     <template v-if="!divisionRosterList.length">
-        <div class="loading-spinner">
-            <i class="fas fa-spinner fa-spin"></i>
+            <PlayerProfile v-for="roster in filteredRosters"
+            v-bind:key="roster.id"
+            v-bind:roster="roster" />
         </div>
     </template>
 </div>
@@ -22,6 +16,7 @@
 <style scoped>
 #division-rosters {
     width: 85%;
+    background-color: #11171a;
 }
 
 .rosters-data {
@@ -32,22 +27,17 @@
 }
 
 h3 {
+    color: #f4f5f6;
     text-transform: uppercase;
     padding: 1% 0 0 1%;
     font-size: 1.5vw;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 span {
     font-weight: bold;
     color: #faa61a;
-}
-
-i {
-    font-size: 60px;
-}
-
-.loading-spinner {
-    margin: 20% 0 0 40%;
 }
 
 @media (max-width: 1024px) {
@@ -76,17 +66,15 @@ export default {
     },
   },
   data() {
-    return {
-    };
+    return {};
   },
   computed: {
     filteredRosters() {
+      this.$emit('finishedLoading');
       return this.divisionRosterList.filter(data => data.teamId === this.selectedDivision.id);
     },
   },
-  methods: {
-  },
-  mounted() {
-  },
+  methods: {},
+  mounted() {},
 };
 </script>

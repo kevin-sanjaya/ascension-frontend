@@ -55,6 +55,7 @@
 <style scoped>
 #scrim-schedules {
     width: 35%;
+    background-color: #11171a;
 }
 
 .schedule-tile {
@@ -133,6 +134,7 @@ export default {
   },
   computed: {
     filteredSchedules() {
+      this.$emit('finishedLoading');
       return this.scrimmageSchedules.filter(data => data.teamId === this.selectedDivision.id);
     },
   },

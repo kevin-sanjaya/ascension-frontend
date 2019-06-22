@@ -57,17 +57,13 @@
             </tbody>
         </table>
     </div>
-    <template v-if="!tournamentSchedules.length">
-        <div class="loading-spinner">
-            <i class="fas fa-spinner fa-spin"></i>
-        </div>
-    </template>
 </div>
 </template>
 
 <style scoped>
 #tournament-schedules {
-    width: 48%;
+    width: 50%;
+    background-color: #11171a;
 }
 
 .schedule-tile {
@@ -121,14 +117,6 @@ td {
     margin-bottom: 0;
 }
 
-i.fa-spinner {
-    font-size: 60px;
-}
-
-.loading-spinner {
-    margin: 35% 0 0 -6%;
-}
-
 @media (max-width: 1024px) {
     h3 {
         font-size: 15.36px;
@@ -158,6 +146,7 @@ export default {
   },
   computed: {
     filteredSchedules() {
+      this.$emit('finishedLoading');
       return this.tournamentSchedules.filter(data => data.teamId === this.selectedDivision.id);
     },
   },

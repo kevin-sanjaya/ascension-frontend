@@ -2,9 +2,16 @@
 <div id="schedules">
     <DivisionSelector @selectDivision="selectDivision" />
     <ScrimSchedules  v-bind:selectedDivision="selectedDivision"
-                     v-bind:scrimmageSchedules="scrimmageSchedules" />
+                     v-bind:scrimmageSchedules="scrimmageSchedules"
+                     @finishedLoading="finishLoading" />
     <TournamentSchedules  v-bind:selectedDivision="selectedDivision"
-                          v-bind:tournamentSchedules="tournamentSchedules" />
+                          v-bind:tournamentSchedules="tournamentSchedules"
+                          @finishedLoading="finishLoading" />
+    <template v-if="isLoading">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+    </template>
 </div>
 </template>
 
@@ -12,7 +19,17 @@
 #schedules {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+}
+
+i {
+    font-size: 3vw;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #f4f5f6;
 }
 </style>
 
@@ -35,6 +52,7 @@ export default {
       selectedDivision: {},
       scrimmageSchedules: [],
       tournamentSchedules: [],
+      isLoading: true,
     };
   },
   methods: {
@@ -46,6 +64,9 @@ export default {
     },
     setTournamentSchedules(tournamentSchedules) {
       this.tournamentSchedules = tournamentSchedules;
+    },
+    finishLoading() {
+      this.isLoading = false;
     },
   },
   mounted() {

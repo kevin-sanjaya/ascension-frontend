@@ -43,6 +43,9 @@
     position: relative;
     font-size: 1vw;
     z-index: 0;
+    border-bottom: 2px solid #11171a;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 #nav a.router-link-exact-active {

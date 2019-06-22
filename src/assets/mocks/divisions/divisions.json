@@ -28,23 +28,27 @@
         {
             "id": 6,
             "name": "APEX Legends",
-            "src": "https://edge.alluremedia.com.au/m/k/2019/02/apex-legends-logo.jpg"
+            "src": "http://midwestesports.com/Content/Uploads/apex.png"
         },
         {
             "id": 7,
-            "name": "StarCraft II"
+            "name": "StarCraft II",
+            "src": "https://bnetcmsus-a.akamaihd.net/cms/carousel_header/YYFJAEYVDXJQ1538090707313.png"
         },
         {
             "id": 8,
-            "name": "Rocket League"
+            "name": "Rocket League",
+            "src": "https://external-preview.redd.it/SpDNFegxVRzXyUta0BFMdNqyLVmXGVcKHhyVsqYjOfg.png?width=500&auto=webp&s=d956699313de76905eba3bcf0225657f7e4a9ac2"
         },
         {
             "id": 9,
-            "name": "Fortnite"
+            "name": "Fortnite",
+            "src": "https://www.stickpng.com/assets/images/5b43b818e99939b4572e32ab.png"
         },
         {
             "id": 10,
-            "name": "FIFA"
+            "name": "FIFA",
+            "src": "https://www.performgroup.com/wp-content/uploads/2015/10/ea_sports_logo.png"
         }
     ]
 }

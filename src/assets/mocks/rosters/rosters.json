@@ -7,7 +7,7 @@
             "age": 23,
             "country": "United States",
             "position": "Support",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 1
         },
@@ -18,7 +18,7 @@
             "age": 24,
             "country": "Germany",
             "position": "Support",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 1
         },
@@ -29,7 +29,7 @@
             "age": 25,
             "country": "Sweden",
             "position": "Carry",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 1
         },
@@ -40,7 +40,7 @@
             "age": 22,
             "country": "Germany",
             "position": "Solo",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 1
         },
@@ -51,7 +51,7 @@
             "age": 24,
             "country": "United Kingdom",
             "position": "Offlaner",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 1
         },
@@ -62,7 +62,7 @@
             "age": 28,
             "country": "Germany",
             "position": "Coach",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 1
         },
@@ -73,7 +73,7 @@
             "age": 22,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 2
         },
@@ -84,7 +84,7 @@
             "age": 22,
             "country": "Belgium",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 2
         },
@@ -95,7 +95,7 @@
             "age": 23,
             "country": "Netherlands",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 2
         },
@@ -106,7 +106,7 @@
             "age": 22,
             "country": "United States",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 2
         },
@@ -117,7 +117,7 @@
             "age": 24,
             "country": "Sweden",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 2
         },
@@ -128,7 +128,7 @@
             "age": 28,
             "country": "Germany",
             "position": "Coach",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 2
         },
@@ -139,7 +139,7 @@
             "age": 25,
             "country": "United Kingdom",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 3
         },
@@ -150,7 +150,7 @@
             "age": 19,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 3
         },
@@ -161,7 +161,7 @@
             "age": 25,
             "country": "Denmark",
             "position": "Coach",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 3
         },
@@ -172,7 +172,7 @@
             "age": 27,
             "country": "Finland",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 3
         },
@@ -183,7 +183,7 @@
             "age": 25,
             "country": "Denmark",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 3
         },
@@ -194,7 +194,7 @@
             "age": 28,
             "country": "France",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 3
         },
@@ -205,7 +205,7 @@
             "age": 23,
             "country": "United States",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 4
         },
@@ -216,7 +216,7 @@
             "age": 22,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 4
         },
@@ -227,7 +227,7 @@
             "age": 20,
             "country": "France",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 4
         },
@@ -238,7 +238,7 @@
             "age": 24,
             "country": "United Kingdom",
             "position": "Support",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 5
         },
@@ -249,7 +249,7 @@
             "age": 25,
             "country": "Belgium",
             "position": "Jungler",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 5
         },
@@ -260,7 +260,7 @@
             "age": 23,
             "country": "United States",
             "position": "ADC",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 5
         },
@@ -271,7 +271,7 @@
             "age": 26,
             "country": "United Kingdom",
             "position": "Solo",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 5
         },
@@ -282,7 +282,7 @@
             "age": 24,
             "country": "Germany",
             "position": "Top",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 5
         },
@@ -293,7 +293,7 @@
             "age": 22,
             "country": "United Kingdom",
             "position": "Coach",
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 5
         },
@@ -304,7 +304,7 @@
             "age": 25,
             "country": "Netherlands",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 6
         },
@@ -315,7 +315,7 @@
             "age": 22,
             "country": "United States",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 6
         },
@@ -326,7 +326,7 @@
             "age": 23,
             "country": "Belgium",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 6
         },
@@ -337,7 +337,29 @@
             "age": 25,
             "country": "South Korea",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 7
+        },
+        {
+            "id": "RIFPJ",
+            "name": "Richard Sean",
+            "nickname": "Jkz",
+            "age": 23,
+            "country": "Australia",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 7
+        },
+        {
+            "id": "8HWHI",
+            "name": "Justin McKoy",
+            "nickname": "Twister",
+            "age": 28,
+            "country": "United States",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 7
         },
@@ -348,7 +370,7 @@
             "age": 19,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 8
         },
@@ -359,7 +381,7 @@
             "age": 24,
             "country": "United Kingdom",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 8
         },
@@ -370,7 +392,7 @@
             "age": 23,
             "country": "Netherlands",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 8
         },
@@ -381,7 +403,7 @@
             "age": 26,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": true,
             "teamId": 9
         },
@@ -392,7 +414,7 @@
             "age": 24,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 9
         },
@@ -403,7 +425,7 @@
             "age": 26,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 9
         },
@@ -414,7 +436,29 @@
             "age": 25,
             "country": "Germany",
             "position": null,
-            "avatarUrl": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 10
+        },
+        {
+            "id": "37T8I",
+            "name": "Russell Bohn",
+            "nickname": "Nightwalker",
+            "age": 22,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 10
+        },
+        {
+            "id": "KINHJ",
+            "name": "Dominik Albiker",
+            "nickname": "River",
+            "age": 25,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
             "captain": false,
             "teamId": 10
         }

@@ -88,10 +88,6 @@ export default {
       [this.selectedDivision] = divisionList;
       this.$emit('selectDivision', this.selectedDivision);
     },
-    getImage(id) {
-      console.log(`zxc/${id}.png`);
-      return `./zxc/${id}.png`;
-    },
   },
   mounted() {
     setTimeout(() => this.setDivisionList(mockDivisions.default.divisions), 2000);
