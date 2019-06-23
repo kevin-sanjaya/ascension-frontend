@@ -22,7 +22,7 @@
 
 <style scoped>
 #nav {
-    background-color: #11171a;
+    background-color: black;
     border-bottom: 4px solid #faa61a;
 }
 
@@ -43,7 +43,7 @@
     position: relative;
     font-size: 1vw;
     z-index: 0;
-    border-bottom: 2px solid #11171a;
+    border-bottom: 2px solid black;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }

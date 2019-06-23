@@ -31,8 +31,6 @@ h3 {
     text-transform: uppercase;
     padding: 1% 0 0 1%;
     font-size: 1.5vw;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
 }
 
 span {
