@@ -55,6 +55,7 @@
 <style scoped>
 #scrim-schedules {
     width: 35%;
+    padding: 1% 0 0 1%;
     background-color: #11171a;
 }
 
@@ -73,6 +74,8 @@ td.match-detail {
 .collapse {
     border-left: 4px solid #faa61a;
     padding-left: 3%;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 button.detail-button {
@@ -80,6 +83,7 @@ button.detail-button {
     border: none;
     color: #faa61a;
     background-color: #11171a;
+    outline: none;
 }
 
 h3 {
@@ -91,7 +95,6 @@ h3 {
 }
 
 span {
-    font-weight: bold;
     color: #faa61a;
 }
 

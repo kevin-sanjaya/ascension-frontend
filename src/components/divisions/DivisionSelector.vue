@@ -1,7 +1,7 @@
 <template>
 <div id="division-selector">
+<br>
     <button
-    class="animation"
         v-for="division in divisionList"
         v-on:click="selectDivision"
         v-bind:key="division.id"
@@ -24,6 +24,12 @@
 img {
     width: 20%;
     margin-right: 5%;
+}
+
+br {
+    display: block;
+    margin-top: 5%;
+    content: "";
 }
 
 button {

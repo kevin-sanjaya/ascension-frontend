@@ -63,6 +63,7 @@
 <style scoped>
 #tournament-schedules {
     width: 50%;
+    padding: 1%;
     background-color: #11171a;
 }
 
@@ -81,6 +82,8 @@ td.match-detail {
 .collapse {
     border-left: 4px solid #faa61a;
     padding-left: 3%;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 button.detail-button {
@@ -99,7 +102,6 @@ h3 {
 }
 
 span {
-    font-weight: bold;
     color: #faa61a;
 }
 
