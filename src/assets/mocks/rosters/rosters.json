@@ -1,464 +1,466 @@
 {
-    "rosters": {
-        "Dota 2": [
-            {
-                "id": "FWWRK",
-                "name": "Alfred Roos",
-                "nickname": "KING",
-                "age": 23,
-                "country": "United States",
-                "position": "Support",
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 1
-            },
-            {
-                "id": "P499E",
-                "name": "Antonio Goller",
-                "nickname": "Golly",
-                "age": 24,
-                "country": "Germany",
-                "position": "Support",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 1
-            },
-            {
-                "id": "2DG9Z",
-                "name": "Ben Borgmann",
-                "nickname": "Cyborg",
-                "age": 25,
-                "country": "Sweden",
-                "position": "Carry",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 1
-            },
-            {
-                "id": "UZ4TG",
-                "name": "Merle Willeke",
-                "nickname": "Willz",
-                "age": 22,
-                "country": "Germany",
-                "position": "Solo",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 1
-            },
-            {
-                "id": "G8GVE",
-                "name": "Michael Brohs",
-                "nickname": "Talent|",
-                "age": 24,
-                "country": "United Kingdom",
-                "position": "Offlaner",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 1
-            },
-            {
-                "id": "UD0NZ",
-                "name": "Paul Knott",
-                "nickname": "KnoLL",
-                "age": 28,
-                "country": "Germany",
-                "position": "Coach",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 1
-            }
-        ],
-        "CS: GO": [
-            {
-                "id": "UBUO2",
-                "name": "Luis Herzberg",
-                "nickname": "Goldberg",
-                "age": 22,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 2
-            },
-            {
-                "id": "O5AT4",
-                "name": "Anton Walnsch",
-                "nickname": "Summer",
-                "age": 22,
-                "country": "Belgium",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 2
-            },
-            {
-                "id": "WMXE1",
-                "name": "Philip Frommen",
-                "nickname": "Froggy-",
-                "age": 23,
-                "country": "Netherlands",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 2
-            },
-            {
-                "id": "K407Z",
-                "name": "Marcel Jansen",
-                "nickname": "Jz",
-                "age": 22,
-                "country": "United States",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 2
-            },
-            {
-                "id": "0WDVF",
-                "name": "Franz Aaldering",
-                "nickname": "Caspian",
-                "age": 24,
-                "country": "Sweden",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 2
-            },
-            {
-                "id": "7PTYW",
-                "name": "Timm Pahl",
-                "nickname": "Tims",
-                "age": 28,
-                "country": "Germany",
-                "position": "Coach",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 2
-            }
-        ],
-        "Call of Duty": [
-            {
-                "id": "1PB7D",
-                "name": "Elliot Gilmore",
-                "nickname": "MoonWalker",
-                "age": 25,
-                "country": "United Kingdom",
-                "position": null,
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 3
-            },
-            {
-                "id": "GL52I",
-                "name": "Fredrick Krueger",
-                "nickname": "Amnesiac",
-                "age": 19,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 3
-            },
-            {
-                "id": "7YBZU",
-                "name": "Stefan Østergaard",
-                "nickname": "Device",
-                "age": 25,
-                "country": "Denmark",
-                "position": "Coach",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 3
-            },
-            {
-                "id": "OIBVJ",
-                "name": "Paul Vestergaard",
-                "nickname": "LazuardiaN",
-                "age": 27,
-                "country": "Finland",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 3
-            },
-            {
-                "id": "8KW51",
-                "name": "Tonni Hagelskjær",
-                "nickname": "TONY",
-                "age": 25,
-                "country": "Denmark",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 3
-            },
-            {
-                "id": "WN9SD",
-                "name": "Phillip Frandsen",
-                "nickname": "Ysaera",
-                "age": 28,
-                "country": "France",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 3
-            }
-        ],
-        "PUBG": [
-            {
-                "id": "XKZR9",
-                "name": "Andreas Schott",
-                "nickname": "LegioN",
-                "age": 23,
-                "country": "United States",
-                "position": null,
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 4
-            },
-            {
-                "id": "5VO7P",
-                "name": "Carl Kornberg",
-                "nickname": "Aerow0lf",
-                "age": 22,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 4
-            },
-            {
-                "id": "0JCD1",
-                "name": "Torben Bierbaum",
-                "nickname": "Magmus",
-                "age": 20,
-                "country": "France",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 4
-            }
-        ],
-        "League of Legends": [
-            {
-                "id": "SK5HT",
-                "name": "Marcel Brandt",
-                "nickname": "Cello",
-                "age": 24,
-                "country": "United Kingdom",
-                "position": "Support",
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 5
-            },
-            {
-                "id": "TCX0W",
-                "name": "Tommy Wu",
-                "nickname": "Lies",
-                "age": 25,
-                "country": "Belgium",
-                "position": "Jungler",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 5
-            },
-            {
-                "id": "7E478",
-                "name": "Oliver Otto",
-                "nickname": "Verdant",
-                "age": 23,
-                "country": "United States",
-                "position": "ADC",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 5
-            },
-            {
-                "id": "LKREO",
-                "name": "Ralph Simon",
-                "nickname": "Somebody",
-                "age": 26,
-                "country": "United Kingdom",
-                "position": "Solo",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 5
-            },
-            {
-                "id": "4FARM",
-                "name": "Tim Peters",
-                "nickname": "Morgan",
-                "age": 24,
-                "country": "Germany",
-                "position": "Top",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 5
-            },
-            {
-                "id": "8OLX0",
-                "name": "Paul Yang",
-                "nickname": "Shelby",
-                "age": 22,
-                "country": "United Kingdom",
-                "position": "Coach",
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 5
-            }
-        ],
-        "APEX Legends": [
-            {
-                "id": "988KQ",
-                "name": "Volker Berger",
-                "nickname": "Leonidas",
-                "age": 25,
-                "country": "Netherlands",
-                "position": null,
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 6
-            },
-            {
-                "id": "PNHNX",
-                "name": "Leon Becker",
-                "nickname": "Stargazer",
-                "age": 22,
-                "country": "United States",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 6
-            },
-            {
-                "id": "IUWL7",
-                "name": "Axel Wagner",
-                "nickname": "Haze",
-                "age": 23,
-                "country": "Belgium",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 6
-            }
-        ],
-        "StarCraft II": [
-            {
-                "id": "PVWFN",
-                "name": "Park Seung Min",
-                "nickname": "Life",
-                "age": 25,
-                "country": "South Korea",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 7
-            }
-        ],
-        "Rocket League": [
-            {
-                "id": "LAM2A",
-                "name": "Tobias Weber",
-                "nickname": "CoffeeLovers",
-                "age": 19,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 8
-            },
-            {
-                "id": "GQ4MW",
-                "name": "Kai Schmitt",
-                "nickname": "Kay-",
-                "age": 24,
-                "country": "United Kingdom",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 8
-            },
-            {
-                "id": "3NDSJ",
-                "name": "Klaus Schröder",
-                "nickname": "Ax|Schug",
-                "age": 20,
-                "country": "Sweden",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 8
-            },
-            {
-                "id": "3ODG7",
-                "name": "Finn Stein",
-                "nickname": "Collosus",
-                "age": 23,
-                "country": "Netherlands",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 8
-            }
-        ],
-        "Fortnite": [
-            {
-                "id": "HUGLT",
-                "name": "René Schwarz",
-                "nickname": "Minerva",
-                "age": 26,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": true,
-                "teamId": 9
-            },
-            {
-                "id": "UOXQJ",
-                "name": "Ralph Baumann",
-                "nickname": "Baymax",
-                "age": 24,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 9
-            },
-            {
-                "id": "0T9FC",
-                "name": "Stefan Schmidt",
-                "nickname": "Zio",
-                "age": 26,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 9
-            },
-            {
-                "id": "2YAXH",
-                "name": "Bernd Schneider",
-                "nickname": "F1re",
-                "age": 23,
-                "country": "Germany",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 9
-            }
-        ],
-        "FIFA": [
-            {
-                "id": "H57ZT",
-                "name": "Mark van der Meer",
-                "nickname": "Score",
-                "age": 20,
-                "country": "Netherlands",
-                "position": null,
-                "avatarUrl": null,
-                "captain": false,
-                "teamId": 10
-            }
-        ]
-    }
+    "rosters": [
+        {
+            "id": "FWWRK",
+            "name": "Alfred Roos",
+            "nickname": "KING",
+            "age": 23,
+            "country": "United States",
+            "position": "Support",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 1
+        },
+        {
+            "id": "P499E",
+            "name": "Antonio Goller",
+            "nickname": "Golly",
+            "age": 24,
+            "country": "Germany",
+            "position": "Support",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 1
+        },
+        {
+            "id": "2DG9Z",
+            "name": "Ben Borgmann",
+            "nickname": "Cyborg",
+            "age": 25,
+            "country": "Sweden",
+            "position": "Carry",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 1
+        },
+        {
+            "id": "UZ4TG",
+            "name": "Merle Willeke",
+            "nickname": "Willz",
+            "age": 22,
+            "country": "Germany",
+            "position": "Solo",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 1
+        },
+        {
+            "id": "G8GVE",
+            "name": "Michael Brohs",
+            "nickname": "Talent|",
+            "age": 24,
+            "country": "United Kingdom",
+            "position": "Offlaner",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 1
+        },
+        {
+            "id": "UD0NZ",
+            "name": "Paul Knott",
+            "nickname": "KnoLL",
+            "age": 28,
+            "country": "Germany",
+            "position": "Coach",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 1
+        },
+        {
+            "id": "UBUO2",
+            "name": "Luis Herzberg",
+            "nickname": "Goldberg",
+            "age": 22,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 2
+        },
+        {
+            "id": "O5AT4",
+            "name": "Anton Walnsch",
+            "nickname": "Summer",
+            "age": 22,
+            "country": "Belgium",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 2
+        },
+        {
+            "id": "WMXE1",
+            "name": "Philip Frommen",
+            "nickname": "Froggy-",
+            "age": 23,
+            "country": "Netherlands",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 2
+        },
+        {
+            "id": "K407Z",
+            "name": "Marcel Jansen",
+            "nickname": "Jz",
+            "age": 22,
+            "country": "United States",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 2
+        },
+        {
+            "id": "0WDVF",
+            "name": "Franz Aaldering",
+            "nickname": "Caspian",
+            "age": 24,
+            "country": "Sweden",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 2
+        },
+        {
+            "id": "7PTYW",
+            "name": "Timm Pahl",
+            "nickname": "Tims",
+            "age": 28,
+            "country": "Germany",
+            "position": "Coach",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 2
+        },
+        {
+            "id": "1PB7D",
+            "name": "Elliot Gilmore",
+            "nickname": "MoonWalker",
+            "age": 25,
+            "country": "United Kingdom",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 3
+        },
+        {
+            "id": "GL52I",
+            "name": "Fredrick Krueger",
+            "nickname": "Amnesiac",
+            "age": 19,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 3
+        },
+        {
+            "id": "7YBZU",
+            "name": "Stefan Østergaard",
+            "nickname": "Device",
+            "age": 25,
+            "country": "Denmark",
+            "position": "Coach",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 3
+        },
+        {
+            "id": "OIBVJ",
+            "name": "Paul Vestergaard",
+            "nickname": "LazuardiaN",
+            "age": 27,
+            "country": "Finland",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 3
+        },
+        {
+            "id": "8KW51",
+            "name": "Tonni Hagelskjær",
+            "nickname": "TONY",
+            "age": 25,
+            "country": "Denmark",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 3
+        },
+        {
+            "id": "WN9SD",
+            "name": "Phillip Frandsen",
+            "nickname": "Ysaera",
+            "age": 28,
+            "country": "France",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 3
+        },
+        {
+            "id": "XKZR9",
+            "name": "Andreas Schott",
+            "nickname": "LegioN",
+            "age": 23,
+            "country": "United States",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 4
+        },
+        {
+            "id": "5VO7P",
+            "name": "Carl Kornberg",
+            "nickname": "Aerow0lf",
+            "age": 22,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 4
+        },
+        {
+            "id": "0JCD1",
+            "name": "Torben Bierbaum",
+            "nickname": "Magmus",
+            "age": 20,
+            "country": "France",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 4
+        },
+        {
+            "id": "SK5HT",
+            "name": "Marcel Brandt",
+            "nickname": "Cello",
+            "age": 24,
+            "country": "United Kingdom",
+            "position": "Support",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 5
+        },
+        {
+            "id": "TCX0W",
+            "name": "Tommy Wu",
+            "nickname": "Lies",
+            "age": 25,
+            "country": "Belgium",
+            "position": "Jungler",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 5
+        },
+        {
+            "id": "7E478",
+            "name": "Oliver Otto",
+            "nickname": "Verdant",
+            "age": 23,
+            "country": "United States",
+            "position": "ADC",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 5
+        },
+        {
+            "id": "LKREO",
+            "name": "Ralph Simon",
+            "nickname": "Somebody",
+            "age": 26,
+            "country": "United Kingdom",
+            "position": "Solo",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 5
+        },
+        {
+            "id": "4FARM",
+            "name": "Tim Peters",
+            "nickname": "Morgan",
+            "age": 24,
+            "country": "Germany",
+            "position": "Top",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 5
+        },
+        {
+            "id": "8OLX0",
+            "name": "Paul Yang",
+            "nickname": "Shelby",
+            "age": 22,
+            "country": "United Kingdom",
+            "position": "Coach",
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 5
+        },
+        {
+            "id": "988KQ",
+            "name": "Volker Berger",
+            "nickname": "Leonidas",
+            "age": 25,
+            "country": "Netherlands",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 6
+        },
+        {
+            "id": "PNHNX",
+            "name": "Leon Becker",
+            "nickname": "Stargazer",
+            "age": 22,
+            "country": "United States",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 6
+        },
+        {
+            "id": "IUWL7",
+            "name": "Axel Wagner",
+            "nickname": "Haze",
+            "age": 23,
+            "country": "Belgium",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 6
+        },
+        {
+            "id": "PVWFN",
+            "name": "Park Seung Min",
+            "nickname": "Life",
+            "age": 25,
+            "country": "South Korea",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 7
+        },
+        {
+            "id": "RIFPJ",
+            "name": "Richard Sean",
+            "nickname": "Jkz",
+            "age": 23,
+            "country": "Australia",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 7
+        },
+        {
+            "id": "8HWHI",
+            "name": "Justin McKoy",
+            "nickname": "Twister",
+            "age": 28,
+            "country": "United States",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 7
+        },
+        {
+            "id": "LAM2A",
+            "name": "Tobias Weber",
+            "nickname": "CoffeeLovers",
+            "age": 19,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 8
+        },
+        {
+            "id": "GQ4MW",
+            "name": "Kai Schmitt",
+            "nickname": "Kay-",
+            "age": 24,
+            "country": "United Kingdom",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 8
+        },
+        {
+            "id": "3ODG7",
+            "name": "Finn Stein",
+            "nickname": "Collosus",
+            "age": 23,
+            "country": "Netherlands",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 8
+        },
+        {
+            "id": "HUGLT",
+            "name": "René Schwarz",
+            "nickname": "Minerva",
+            "age": 26,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": true,
+            "teamId": 9
+        },
+        {
+            "id": "UOXQJ",
+            "name": "Ralph Baumann",
+            "nickname": "Baymax",
+            "age": 24,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 9
+        },
+        {
+            "id": "0T9FC",
+            "name": "Stefan Schmidt",
+            "nickname": "Zio",
+            "age": 26,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 9
+        },
+        {
+            "id": "Q5OD5",
+            "name": "Timm Backer",
+            "nickname": "Tims",
+            "age": 25,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 10
+        },
+        {
+            "id": "37T8I",
+            "name": "Russell Bohn",
+            "nickname": "Nightwalker",
+            "age": 22,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 10
+        },
+        {
+            "id": "KINHJ",
+            "name": "Dominik Albiker",
+            "nickname": "River",
+            "age": 25,
+            "country": "Germany",
+            "position": null,
+            "avatarUrl": "https://dl.airtable.com/.attachmentThumbnails/a3921d6ed2eef3578ac1e13a511ba4d0/99b371e5",
+            "captain": false,
+            "teamId": 10
+        }
+    ]
 }

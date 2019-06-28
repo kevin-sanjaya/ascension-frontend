@@ -10,15 +10,14 @@
         <h3 class="extra-info"><strong>Position: </strong>
         {{ roster.position ? roster.position : "-" }}</h3>
     </div>
-    <img v-if="!roster.avatarUrl" src="../../../assets/mock-avatar.png" alt="player-avatar">
-    <img v-if="roster.avatarUrl" v-bind:src="roster.avatarUrl" alt="player-avatar">
+    <img v-bind:src="roster.avatarUrl" alt="player-avatar">
 </div>
 </template>
 
 <style scoped>
 #player-profile {
     border-top: 4px solid #faa61a;
-    background-color: white;
+    background-color: #f4f5f6;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -79,7 +78,10 @@ h3.extra-info {
 export default {
   name: 'PlayerProfile',
   props: {
-    roster: Object,
+    roster: {
+      type: Object,
+      default: () => null,
+    },
   },
   data() {
     return {};

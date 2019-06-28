@@ -1,0 +1,43 @@
+{
+    "tournaments": [
+        {
+            "id": "80610",
+            "time": "2019-01-29T10:00:00.000-02:00",
+            "opponent": "Black Spielers",
+            "league": "German Professional League",
+            "format": "Best of 3",
+            "online": true,
+            "bracket": "Group Stage",
+            "server": "Europe",
+            "leagueUrl": "Link", 
+            "info": null,
+            "teamId": 1
+        },
+        {
+            "id": "85592",
+            "time": "2019-02-12T07:00:00.000-02:00",
+            "opponent": "Team Storm",
+            "league": "Europe Amateur League",
+            "format": "Best of 3",
+            "online": false,
+            "bracket": "Main Event",
+            "server": null,
+            "leagueUrl": "Link", 
+            "info": "Match will be held in Munich Arena, Germany.",
+            "teamId": 1
+        },
+        {
+            "id": "71715",
+            "time": "2019-02-14T07:00:00.000-02:00",
+            "opponent": "Team Frontliner",
+            "league": "Rookie League",
+            "format": "Best of 3",
+            "online": true,
+            "bracket": "Group Stage",
+            "server": "Europe",
+            "leagueUrl": "Link", 
+            "info": null,
+            "teamId": 2
+        }
+    ]
+}

@@ -2,43 +2,53 @@
     "divisions": [
         {
             "id": 1,
-            "name": "Dota 2"
+            "name": "Dota 2",
+            "src": "https://t0.rbxcdn.com/f2c991f7641881faa95217a7e4bd3f1a"
         },
         {
             "id": 2,
-            "name": "CS: GO"
+            "name": "CS: GO",
+            "src": "https://www.pngkey.com/png/full/18-185642_csgo-discord-emoji-cs-go-logo-png.png"
         },
         {
             "id": 3,
-            "name": "Call of Duty"
+            "name": "Call of Duty",
+            "src": "http://www.sclance.com/pngs/call-of-duty-logo-png/call_of_duty_logo_png_204558.png"
         },
         {
             "id": 4,
-            "name": "PUBG"
+            "name": "PUBG",
+            "src": "https://pngimg.com/uploads/pubg/pubg_PNG33.png"
         },
         {
             "id": 5,
-            "name": "League of Legends"
+            "name": "League of Legends",
+            "src": "https://www.riotgames.com/darkroom/800/6e3cb0c1ef68c36917c0ebc60e134f69:27e118b555199ad4738eaa74561e3e79/blank-uml-page-2.png"
         },
         {
             "id": 6,
-            "name": "APEX Legends"
+            "name": "APEX Legends",
+            "src": "http://midwestesports.com/Content/Uploads/apex.png"
         },
         {
             "id": 7,
-            "name": "StarCraft II"
+            "name": "StarCraft II",
+            "src": "https://bnetcmsus-a.akamaihd.net/cms/carousel_header/YYFJAEYVDXJQ1538090707313.png"
         },
         {
             "id": 8,
-            "name": "Rocket League"
+            "name": "Rocket League",
+            "src": "https://steamuserimages-a.akamaihd.net/ugc/946209690022081477/5239F2FB173B53944794A8D1980C542B4BCAEF7D/"
         },
         {
             "id": 9,
-            "name": "Fortnite"
+            "name": "Fortnite",
+            "src": "https://www.stickpng.com/assets/images/5b43b818e99939b4572e32ab.png"
         },
         {
             "id": 10,
-            "name": "FIFA"
+            "name": "FIFA",
+            "src": "https://www.performgroup.com/wp-content/uploads/2015/10/ea_sports_logo.png"
         }
     ]
 }
