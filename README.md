@@ -4,11 +4,10 @@ Ascension is a web-based application (made with Vue.js) to simplify esports team
 
 ## Functionalities
 This project came with standard functionalities such as:
-1. Organizing the team's upcoming scrimmage and tournament schedules.
-2. View overview rosters data for each team.
-3. View profile detail data for each player.
-4. View both scrimmage and tournament results from each team.
-5. ... More functionalities will be added in the future.
+1. Organizing each team's upcoming scrimmage and tournament schedules.
+2. Organizing player's individual data for each team.
+3. Organizing each team's scrimmage and tournament results.
+4. Dashboard page to bring an performance preview for each team.
 
 ## Project setup
 ```
