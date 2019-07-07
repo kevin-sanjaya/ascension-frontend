@@ -1,0 +1,32 @@
+{
+    "scrimmages": [
+        {
+            "id": "88473",
+            "win": true,
+            "match_detail": null,
+            "schedules_id": "42813",
+            "teamId": 1
+        },
+        {
+            "id": "57786",
+            "win": false,
+            "match_detail": null,
+            "schedules_id": "35919",
+            "teamId": 1
+        },
+        {
+            "id": "79371",
+            "win": true,
+            "match_detail": null,
+            "schedules_id": "27947",
+            "teamId": 2
+        },
+        {
+            "id": "66205",
+            "win": true,
+            "match_detail": null,
+            "schedules_id": "99967",
+            "teamId": 2
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tournaments": [
+        {
+            "id": "90152",
+            "win": true,
+            "match_detail": null,
+            "schedules_id": "80610",
+            "teamId": 1
+        },
+        {
+            "id": "85592",
+            "win": true,
+            "match_detail": null,
+            "schedules_id": "80610",
+            "teamId": 1
+        },
+        {
+            "id": "03118",
+            "win": false,
+            "match_detail": null,
+            "schedules_id": "71715",
+            "teamId": 2
+        }
+    ]
+}
