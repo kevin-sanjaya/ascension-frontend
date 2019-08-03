@@ -3,30 +3,58 @@
         {
             "id": "88473",
             "win": true,
-            "match_detail": null,
-            "schedules_id": "42813",
-            "teamId": 1
+            "match_detail": {
+                "id": "42813",
+                "time": "2019-01-26T07:00:00.000-02:00",
+                "opponent": "Jigsaw Gaming",
+                "format": "Best of 3",
+                "online": true,
+                "server": "Europe",
+                "info": "KING won't be able to play due to personal event.",
+                "teamId": 1
+            }
         },
         {
             "id": "57786",
             "win": false,
-            "match_detail": null,
-            "schedules_id": "35919",
-            "teamId": 1
+            "match_detail": {
+                "id": "35919",
+                "time": "2019-01-26T10:00:00.000-02:00",
+                "opponent": "Team Raider",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 1
+            }
         },
         {
             "id": "79371",
             "win": true,
-            "match_detail": null,
-            "schedules_id": "27947",
-            "teamId": 2
+            "match_detail": {
+                "id": "27947",
+                "time": "2019-01-26T07:00:00.000-02:00",
+                "opponent": "Lunatic Gaming",
+                "format": "Best of 1",
+                "online": true,
+                "server": "US",
+                "info": null,
+                "teamId": 2
+            }
         },
         {
             "id": "66205",
             "win": true,
-            "match_detail": null,
-            "schedules_id": "99967",
-            "teamId": 2
+            "match_detail": {
+                "id": "99967",
+                "time": "2019-01-26T10:00:00.000-02:00",
+                "opponent": "Wave Esports",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 2
+            }
         }
     ]
 }
