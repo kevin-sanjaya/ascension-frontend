@@ -153,7 +153,7 @@ export default {
   },
   methods: {
     formatTime(time) {
-      return `${new Date(time).toLocaleDateString()} ${new Date(time).toLocaleTimeString()}`;
+      return `${new Date(time).toLocaleDateString('en-GB')} ${new Date(time).toLocaleTimeString()}`;
     },
     bindDataTarget(index, button) {
       return button ? `#match-detail${index}` : `match-detail${index}`;
