@@ -39,6 +39,116 @@
             "server": "Europe",
             "info": null,
             "teamId": 2
+        },
+        {
+            "id": "93323",
+            "time": "2019-01-27T10:00:00.000-02:00",
+            "opponent": "Quadruple Gaming",
+            "format": "Best of 1",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 3
+        },
+        {
+            "id": "82351",
+            "time": "2019-01-27T10:00:00.000-02:00",
+            "opponent": "Team Aerowolf",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 4
+        },
+        {
+            "id": "11242",
+            "time": "2019-01-28T10:00:00.000-02:00",
+            "opponent": "Team Gunnar",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 5
+        },
+        {
+            "id": "86311",
+            "time": "2019-02-02T10:00:00.000-02:00",
+            "opponent": "Hanhwa Rookie Esports",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 5
+        },
+        {
+            "id": "44511",
+            "time": "2019-02-03T10:00:00.000-02:00",
+            "opponent": "Team Polar Bear",
+            "format": "Best of 1",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 6
+        },
+        {
+            "id": "22883",
+            "time": "2019-02-04T10:00:00.000-02:00",
+            "opponent": "Nitro Esports",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 6
+        },
+        {
+            "id": "44212",
+            "time": "2019-02-05T10:00:00.000-02:00",
+            "opponent": "AZK",
+            "format": "Best of 1",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 7
+        },
+        {
+            "id": "55980",
+            "time": "2019-02-06T10:00:00.000-02:00",
+            "opponent": "Ning",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 7
+        },
+        {
+            "id": "77580",
+            "time": "2019-02-07T10:00:00.000-02:00",
+            "opponent": "Team Red Legion",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 8
+        },
+        {
+            "id": "11540",
+            "time": "2019-02-03T10:00:00.000-02:00",
+            "opponent": "Legion Esports",
+            "format": "Best of 3",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 9
+        },
+        {
+            "id": "99854",
+            "time": "2019-02-03T10:00:00.000-02:00",
+            "opponent": "Gunman",
+            "format": "Best of 1",
+            "online": true,
+            "server": "Europe",
+            "info": null,
+            "teamId": 10
         }
     ]
 }
