@@ -4,13 +4,13 @@
             "id": "88473",
             "win": true,
             "match_detail": {
-                "id": "42813",
-                "time": "2019-01-26T07:00:00.000-02:00",
-                "opponent": "Jigsaw Gaming",
+                "id": "44212",
+                "time": "2019-01-20T07:00:00.000-02:00",
+                "opponent": "Guardian Esports",
                 "format": "Best of 3",
                 "online": true,
                 "server": "Europe",
-                "info": "KING won't be able to play due to personal event.",
+                "info": null,
                 "teamId": 1
             }
         },
@@ -18,9 +18,9 @@
             "id": "57786",
             "win": false,
             "match_detail": {
-                "id": "35919",
-                "time": "2019-01-26T10:00:00.000-02:00",
-                "opponent": "Team Raider",
+                "id": "41833",
+                "time": "2019-01-21T10:00:00.000-02:00",
+                "opponent": "Relinquished Gaming",
                 "format": "Best of 1",
                 "online": true,
                 "server": "Europe",
@@ -32,9 +32,9 @@
             "id": "79371",
             "win": true,
             "match_detail": {
-                "id": "27947",
-                "time": "2019-01-26T07:00:00.000-02:00",
-                "opponent": "Lunatic Gaming",
+                "id": "33812",
+                "time": "2019-01-21T07:00:00.000-02:00",
+                "opponent": "Accurate Gaming",
                 "format": "Best of 1",
                 "online": true,
                 "server": "US",
@@ -47,13 +47,181 @@
             "win": true,
             "match_detail": {
                 "id": "99967",
-                "time": "2019-01-26T10:00:00.000-02:00",
-                "opponent": "Wave Esports",
+                "time": "2019-01-22T10:00:00.000-02:00",
+                "opponent": "Guardian Esports",
                 "format": "Best of 1",
                 "online": true,
                 "server": "Europe",
                 "info": null,
                 "teamId": 2
+            }
+        },
+        {
+            "id": "33412",
+            "win": false,
+            "match_detail": {
+                "id": "93104",
+                "time": "2019-01-23T10:00:00.000-02:00",
+                "opponent": "Rain Gaming",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 3
+            }
+        },
+        {
+            "id": "23311",
+            "win": true,
+            "match_detail": {
+                "id": "82367",
+                "time": "2019-01-23T13:00:00.000-02:00",
+                "opponent": "Emperor Gaming",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 3
+            }
+        },
+        {
+            "id": "44417",
+            "win": true,
+            "match_detail": {
+                "id": "96133",
+                "time": "2019-01-22T10:00:00.000-02:00",
+                "opponent": "Bushido Gaming",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 4
+            }
+        },
+        {
+            "id": "04516",
+            "win": true,
+            "match_detail": {
+                "id": "75688",
+                "time": "2019-01-23T10:00:00.000-02:00",
+                "opponent": "Nifty Gaming",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 5
+            }
+        },
+        {
+            "id": "05602",
+            "win": false,
+            "match_detail": {
+                "id": "56807",
+                "time": "2019-01-22T10:00:00.000-02:00",
+                "opponent": "Dodge Gaming",
+                "format": "Best of 3",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 6
+            }
+        },
+        {
+            "id": "43773",
+            "win": false,
+            "match_detail": {
+                "id": "64169",
+                "time": "2019-01-23T10:00:00.000-02:00",
+                "opponent": "Team Ninja",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 6
+            }
+        },
+        {
+            "id": "48843",
+            "win": false,
+            "match_detail": {
+                "id": "04777",
+                "time": "2019-01-24T10:00:00.000-02:00",
+                "opponent": "Magic Esports",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 7
+            }
+        },
+        {
+            "id": "53275",
+            "win": true,
+            "match_detail": {
+                "id": "85487",
+                "time": "2019-01-25T10:00:00.000-02:00",
+                "opponent": "Diamond Esports",
+                "format": "Best of 3",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 7
+            }
+        },
+        {
+            "id": "12930",
+            "win": true,
+            "match_detail": {
+                "id": "13216",
+                "time": "2019-01-22T10:00:00.000-02:00",
+                "opponent": "Cyclone Esports",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 8
+            }
+        },
+        {
+            "id": "12148",
+            "win": true,
+            "match_detail": {
+                "id": "75481",
+                "time": "2019-01-22T10:00:00.000-02:00",
+                "opponent": "North Esports",
+                "format": "Best of 3",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 9
+            }
+        },
+        {
+            "id": "56971",
+            "win": true,
+            "match_detail": {
+                "id": "77027",
+                "time": "2019-01-23T10:00:00.000-02:00",
+                "opponent": "Evolution Esports",
+                "format": "Best of 1",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 9
+            }
+        },
+        {
+            "id": "66480",
+            "win": true,
+            "match_detail": {
+                "id": "94730",
+                "time": "2019-01-22T10:00:00.000-02:00",
+                "opponent": "Armageddon Esports",
+                "format": "Best of 3",
+                "online": true,
+                "server": "Europe",
+                "info": null,
+                "teamId": 10
             }
         }
     ]
