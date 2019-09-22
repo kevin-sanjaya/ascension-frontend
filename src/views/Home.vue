@@ -1,70 +1,44 @@
 <template>
 <div id="home">
-    <div class="performance-chart">
-      <canvas id="performance"></canvas>
-    </div>
+    <DivisionSelector @selectDivision="selectDivision" />
+    <Chart v-bind:selectedDivision="selectedDivision" />
 </div>
 </template>
 
 <style scoped>
 #home {
-  padding: 1%;
+  display: flex;
+  flex-direction: row;
 }
 
 .performance-chart {
-  width: 500px;
+  padding: 1%;
+  border-left: 4px solid #faa61a;
+  background-color: #f4f5f6;
+  width: 50%;
 }
 </style>
 
 <script>
-import * as mockTournaments from '../assets/mocks/results/tournaments.json';
-import * as mockDivisions from '../assets/mocks/divisions/divisions.json';
+import DivisionSelector from '@/components/divisions/DivisionSelector.vue';
+import Chart from '@/components/home/Chart.vue';
 
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    DivisionSelector,
+    Chart,
+  },
   data() {
     return {
-      title: 'Home',
-      tournamentResults: [],
-      divisionList: [],
-      chartDataset: [
-        {
-          label: 'Win',
-          borderColor: '#3dfc03',
-          data: [],
-        },
-        {
-          label: 'Lost',
-          borderColor: '#f2112b',
-          data: [],
-        },
-      ],
+      selectedDivision: {},
     };
   },
   methods: {
-    setTournamentResults(tournamentResults) {
-      this.tournamentResults = tournamentResults;
-      this.tournamentResults.forEach((result) => {
-      });
-    },
-    setDivisionList(divisionList) {
-      divisionList.forEach(division => this.divisionList.push(division.name));
+    selectDivision(selectedDivision) {
+      this.selectedDivision = selectedDivision;
     },
   },
-  mounted() {
-    setTimeout(() => this.setDivisionList(mockDivisions.default.divisions), 2000);
-    setTimeout(() => this.setTournamentResults(mockTournaments.default.tournaments), 2000);
-
-    const chartContext = document.getElementById('performance').getContext('2d');
-    const performanceChart = new Chart(chartContext, {
-      type: 'line',
-      data: {
-        labels: this.divisionList,
-        datasets: this.chartDataset,
-      },
-      options: {},
-    });
-  },
+  mounted() {},
 };
 </script>
