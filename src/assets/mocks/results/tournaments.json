@@ -50,6 +50,141 @@
                 "info": null,
                 "teamId": 2
             }
+        },
+        {
+            "id": "14211",
+            "win": false,
+            "match_detail": {
+                "id": "01534",
+                "time": "2019-03-1T07:00:00.000-02:00",
+                "opponent": "Misty Wave Esports",
+                "league": "United League",
+                "format": "Best of 3",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 3
+            }
+        },
+        {
+            "id": "30415",
+            "win": false,
+            "match_detail": {
+                "id": "10759",
+                "time": "2019-02-26T07:00:00.000-02:00",
+                "opponent": "Recca Esports",
+                "league": "WePlay Amateur Stage",
+                "format": "Best of 1",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 4
+            }
+        },
+        {
+            "id": "63930",
+            "win": true,
+            "match_detail": {
+                "id": "83638",
+                "time": "2019-02-23T07:00:00.000-02:00",
+                "opponent": "Rave Esports",
+                "league": "German Amateur League",
+                "format": "Best of 3",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 5
+            }
+        },
+        {
+            "id": "79853",
+            "win": true,
+            "match_detail": {
+                "id": "69065",
+                "time": "2019-03-2T07:00:00.000-02:00",
+                "opponent": "Fire.gg",
+                "league": "WePlay Amateur Stage",
+                "format": "Best of 3",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 6
+            }
+        },
+        {
+            "id": "77067",
+            "win": false,
+            "match_detail": {
+                "id": "40084",
+                "time": "2019-02-19T07:00:00.000-02:00",
+                "opponent": "Lawson",
+                "league": "German Amateur League",
+                "format": "Best of 1",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 7
+            }
+        },
+        {
+            "id": "33562",
+            "win": false,
+            "match_detail": {
+                "id": "04530",
+                "time": "2019-02-26T07:00:00.000-02:00",
+                "opponent": "Team Phoenix Reborn",
+                "league": "Rookie League",
+                "format": "Best of 3",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 8
+            }
+        },        {
+            "id": "52505",
+            "win": true,
+            "match_detail": {
+                "id": "65912",
+                "time": "2019-02-12T07:00:00.000-02:00",
+                "opponent": "Team Anarchy",
+                "league": "Europe Starter League",
+                "format": "Best of 1",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 9
+            }
+        },
+        {
+            "id": "96194",
+            "win": true,
+            "match_detail": {
+                "id": "79795",
+                "time": "2019-02-11T07:00:00.000-02:00",
+                "opponent": "NMB",
+                "league": "Junior FIFA League",
+                "format": "Best of 3",
+                "online": true,
+                "bracket": "Group Stage",
+                "server": "Europe",
+                "leagueUrl": "Link",
+                "info": null,
+                "teamId": 10
+            }
         }
     ]
 }
