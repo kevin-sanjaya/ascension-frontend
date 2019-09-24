@@ -3,23 +3,23 @@
     <div class="scrimmage-performance">
         <h3><span>{{ selectedDivision.name }}</span> Scrimmage Performance</h3>
         <div class="performance-chart">
-            <canvas id="scrimmage"></canvas>
+            <canvas id="scrimmage"></canvas> <br>
+            <h4><span>Season win rate: </span>{{ scrimmageWinRate }}%</h4>
+            <h4><span>Win count: </span>{{ scrimmageChartData[0] }}</h4>
+            <h4><span>Lose count: </span>{{ scrimmageChartData[1] }}</h4>
+            <h4><span>Opponent of the season: </span>-</h4>
         </div>
-        <h4><span>Season win rate: </span>{{ scrimmageWinRate }}%</h4>
-        <h4><span>Win count: </span>{{ scrimmageChartData[0] }}</h4>
-        <h4><span>Lose count: </span>{{ scrimmageChartData[1] }}</h4>
-        <h4><span>Opponent of the season: </span>-</h4>
     </div>
 
     <div class="tournament-performance">
         <h3><span>{{ selectedDivision.name }}</span> Tournament Performance</h3>
         <div class="performance-chart">
-            <canvas id="tournament"></canvas>
+            <canvas id="tournament"></canvas> <br>
+            <h4><span>Season win rate: </span>{{ tournamentWinRate }}%</h4>
+            <h4><span>Win count: </span>{{ tournamentChartData[0] }}</h4>
+            <h4><span>Lose count: </span>{{ tournamentChartData[1] }}</h4>
+            <h4><span>Opponent of the season: </span>-</h4>
         </div>
-        <h4><span>Season win rate: </span>{{ tournamentWinRate }}%</h4>
-        <h4><span>Win count: </span>{{ tournamentChartData[0] }}</h4>
-        <h4><span>Lose count: </span>{{ tournamentChartData[1] }}</h4>
-        <h4><span>Opponent of the season: </span>-</h4>
     </div>
 </div>
 </template>
@@ -45,7 +45,7 @@
 
 .performance-chart {
     padding: 1%;
-    background-color: #f4f5f6;
+    background-color: black;
     border-left: 4px solid #faa61a;
 }
 
@@ -60,6 +60,7 @@ h4 {
     margin-top: 1%;
     text-transform: uppercase;
     color: #f4f5f6;
+    font-size: 1vw;
 }
 
 span {
@@ -100,7 +101,7 @@ export default {
           result.win ? this.scrimmageChartData[0]++ : this.scrimmageChartData[1]++;
         }
       });
-      this.winRate = this.scrimmageChartData[0] / (this.scrimmageChartData[0] + this.scrimmageChartData[1]) * 100;
+      this.scrimmageWinRate = this.scrimmageChartData[0] / (this.scrimmageChartData[0] + this.scrimmageChartData[1]) * 100;
       this.tournamentResults.forEach((result) => {
         if (result.match_detail.teamId === newValue.id) {
           result.win ? this.tournamentChartData[0]++ : this.tournamentChartData[1]++;
@@ -121,7 +122,7 @@ export default {
           result.win ? this.scrimmageChartData[0]++ : this.scrimmageChartData[1]++;
         }
       });
-      this.winRate = this.scrimmageChartData[0] / (this.scrimmageChartData[0] + this.scrimmageChartData[1]) * 100;
+      this.scrimmageWinRate = this.scrimmageChartData[0] / (this.scrimmageChartData[0] + this.scrimmageChartData[1]) * 100;
       this.drawPerformanceChart('scrimmage');
     },
     setTournamentResults(tournamentResults) {
@@ -147,7 +148,14 @@ export default {
             },
           ],
         },
-        options: {},
+        options: {
+          legend: {
+            labels: {
+              fontColor: 'white',
+              fontSize: 16,
+            },
+          },
+        },
       });
       if (param === 'scrimmage') {
         this.scrimmageChart = chartData;
