@@ -4,6 +4,7 @@ import Router from 'vue-router';
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -24,6 +25,11 @@ export default new Router({
       path: '/divisions',
       name: 'Divisions',
       component: () => import('./views/Divisions.vue'),
+    },
+    {
+      path: '/training',
+      name: 'Training',
+      component: () => import('./views/TrainingPage.vue'),
     },
   ],
 });

@@ -1,8 +1,9 @@
 <template>
 <div id="root">
-    <NavigationBar />
+    <Sidebar />
+    <!-- <NavigationBar /> -->
     <router-view />
-    <Footer />
+    <!-- <Footer /> -->
 </div>
 </template>
 
@@ -13,21 +14,21 @@
 }
 
 #root {
-    font-family: "Akkurat";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    min-width: 1024px;
+  /*font-family: "Akkurat";*/
+
 }
 </style>
 
 <script>
 import NavigationBar from '@/components/navigation-bar/NavigationBar.vue';
 import Footer from '@/components/footer/Footer.vue';
+import Sidebar from '@/components/side-bar/Sidebar.vue';
 
 export default {
   components: {
     NavigationBar,
     Footer,
+    Sidebar
   },
 };
 </script>
